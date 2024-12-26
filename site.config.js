@@ -3,24 +3,25 @@ const CONFIG = {
   profile: {
     name: "Snowclik",
     image: "/avatar.webp", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: "Creador de contenido",
+    bio: "¡Hola a todos! Soy creador de servers de discord profesional, hago contenido de discord y gameplays, streams de juegos como minecraft, roblox y de mi tarea",
+    email: "",
+    linkedin: "",
+    github: "",
     instagram: "",
+    youtube: "snowclik",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Redes sociales`,
+      href: "https://bento.me/snowclik",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
+    title: "Snowclik Blog",
     description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
