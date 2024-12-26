@@ -57,7 +57,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "snowclik/snowclik-blog",
+      repo: "Snowclik/snowclik-blog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
