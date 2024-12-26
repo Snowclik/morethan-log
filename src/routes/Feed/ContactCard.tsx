@@ -5,6 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineMail,
+  AiFillYoutube,
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -42,7 +43,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineInstagram className="icon" />
+            <AiFillYoutube className="icon" />
             <div className="name">youtube</div>
           </a>
         )}
