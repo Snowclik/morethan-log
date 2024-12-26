@@ -6,7 +6,7 @@ const UtterancesComponent = dynamic(
   () => {
     return import("./Utterances")
   },
-  { ssr: true }
+  { ssr: false }
 )
 const CusdisComponent = dynamic(
   () => {
