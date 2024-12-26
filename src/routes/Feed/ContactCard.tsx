@@ -13,7 +13,7 @@ const ContactCard: React.FC = () => {
   return (
     <>
       <StyledTitle>
-        <Emoji>💬</Emoji> Contact
+        <Emoji>💬</Emoji> Contacto
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.profile.github && (
@@ -34,6 +34,16 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineInstagram className="icon" />
             <div className="name">instagram</div>
+          </a>
+        )}
+        {CONFIG.profile.youtube && (
+          <a
+            href={`https://www.youtube.com/@${CONFIG.profile.youtube}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineInstagram className="icon" />
+            <div className="name">youtube</div>
           </a>
         )}
         {CONFIG.profile.email && (

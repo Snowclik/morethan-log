@@ -8,7 +8,7 @@ const CONFIG = {
     email: "",
     linkedin: "",
     github: "",
-    instagram: "",
+    instagram: "snowclik",
     youtube: "snowclik",
   },
   projects: [
