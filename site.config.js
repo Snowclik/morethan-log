@@ -69,6 +69,13 @@ const CONFIG = {
       appid: "", // Embed Code -> data-app-id value
     },
   },
+  widgetbot: {
+    enable: true, // Activar o desactivar WidgetBot
+    config: {
+      server: "1255315959074394182",
+      channel: "1322102053845074000",
+    },
+  },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
   revalidateTime: 21600 * 7, // revalidate time for [slug], index
 }

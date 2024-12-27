@@ -14,6 +14,12 @@ const CusdisComponent = dynamic(
   },
   { ssr: false }
 )
+const WidgetBotComponent = dynamic(
+  () => {
+    return import("./WidgetBot")
+  }, 
+  { ssr: false }
+)
 
 type Props = {
   data: TPost
@@ -25,6 +31,12 @@ const CommentBox: React.FC<Props> = ({ data }) => {
       {CONFIG.utterances.enable && <UtterancesComponent issueTerm={data.id} />}
       {CONFIG.cusdis.enable && (
         <CusdisComponent id={data.id} slug={data.slug} title={data.title} />
+      )}
+      {CONFIG.widgetbot.enable && (
+        <WidgetBotComponent
+          server={CONFIG.widgetbot.config.server}
+          channel={CONFIG.widgetbot.config.channel}
+        />
       )}
     </div>
   )
