@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Snowclik",
     image: "/avatar.webp", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Creador de contenido",
-    bio: "¡Hola a todos! Me llamo Snowclik o solo Snow, hago contenido de discord, gameplays, streams de juegos como minecraft, roblox y de mi tarea",
+    bio: "¡Hola a todos! Me llamo Snowclik pero puedes decirme Snow, hago contenido de discord, gameplays, streams de juegos como minecraft, roblox, de mi tarea y más",
     email: "",
     linkedin: "",
     github: "",
