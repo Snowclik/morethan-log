@@ -20,7 +20,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Snowclik Blog",
-    description: "welcome to morethan-log!",
+    description: "Bienvenido a Snowclik blog!",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
