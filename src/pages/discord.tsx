@@ -1,12 +1,21 @@
 import { useEffect } from "react";
+import Head from "next/head";
 
 const DiscordPage: React.FC = () => {
   useEffect(() => {
-    // Cambia este enlace por el enlace real de tu página de Discord
-    window.location.href = "https://discord.gg/BrhTYUUsJk";
+    // Redirige al enlace de Discord
+    window.location.href = "https://discord.com/invite/BrhTYUUsJk";
   }, []);
 
-  return <p>Redirigiendo a Discord...</p>;
+  return (
+    <>
+      <Head>
+        <link rel="icon" href="/discord-icon.ico" /> {/* Cambia el favicon */}
+        <title>Redirigiendo a Discord...</title>
+      </Head>
+      <p>Redirigiendo a Discord...</p>
+    </>
+  );
 };
 
 export default DiscordPage;
