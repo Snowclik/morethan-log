@@ -1,8 +1,8 @@
 {
-    "functions": {
-      "/src/pages/api/revalidate.ts": {
-        
-      }
-    }
+    "crons": [{
+      "path": "/api/revalidate.ts",
+        "cron": "0 * * * *"
+      
+    }]
   }
   
