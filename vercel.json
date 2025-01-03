@@ -1,6 +1,6 @@
 {
     "functions": {
-      "/src/pages/api/revalidate.ts": {
+      "api/revalidate.ts": {
         "cron": "0 * * * *"
       }
     }
